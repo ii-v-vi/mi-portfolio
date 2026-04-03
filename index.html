@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Personal</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenidos a mi Portafolio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#tarjetas">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="sobre-mi">
+                    <h2>Sobre mí</h2>
+                    <p>Hola, soy Ivan, estudiante de desarrollo de software. Mi misión es crear experiencias digitales increíbles y accesibles para todos.</p>
+                    <img src="img/perfil.png" alt="Ilustración de avatar de desarrollador con iconos de código" class="img-perfil">
+                </section>
+        
+                <section id="tarjetas">
+                    <h2>Mis Proyectos</h2>
+                    <div class="contenedor-tarjetas">
+                        <article class="tarjeta">
+                            <img src="img/proyecto1.png" alt="Ilustración conceptual de una Landing Page en una computadora">
+                            <h3>Landing Page</h3>
+                            <p>Un sitio web responsivo diseñado para una startup ficticia.</p>
+                        </article>
+                        <article class="tarjeta">
+                            <img src="img/proyecto2.png" alt="Ilustración conceptual de una aplicación móvil de clima">
+                            <h3>App de Clima</h3>
+                            <p>Aplicación que utiliza APIs para mostrar el clima en tiempo real.</p>
+                        </article>
+                    </div>
+                </section>
+        <section id="habilidades">
+            <h2>Habilidades y Hobbies</h2>
+            <table>
+                <tr>
+                    <th>Tecnologías que domino</th>
+                    <th>Quiero aprender</th>
+                    <th>Hobbies</th>
+                </tr>
+                <tr>
+                    <td>HTML & CSS</td>
+                    <td>React.js</td>
+                    <td>Música</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="tel">Teléfono:</label>
+                <input type="tel" id="tel" name="tel">
+
+                <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+            </form>
+        </section>
+
+        <section id="peliculas">
+                <h2>Mis 3 Películas Favoritas (Studio Ghibli)</h2>
+                
+                <div class="contenedor-peliculas">
+                    <article class="pelicula-item">
+                        <h3>La Princesa Mononoke</h3>
+                        <img src="img/La_princesa_Mononoke.jpg" alt="Póster de la película La Princesa Mononoke">
+                        <p>Una épica historia sobre la lucha entre los dioses del bosque y la humanidad. Me fascina su mensaje sobre la naturaleza y la complejidad de sus personajes.</p>
+                    </article>
+    
+                    <article class="pelicula-item">
+                        <h3>Porco Rosso</h3>
+                        <p>Ambientada en el Adriático, sigue a un piloto experto que fue hechizado con el rostro de un cerdo. Es una película llena de aventura, honor y una nostalgia increíble por la aviación.</p>
+                        <img src="img/Porco_Rosso.jpg" alt="Póster de la película Porco Rosso">
+                    </article>
+    
+                    <article class="pelicula-item">
+                        <h3>Se Levanta el Viento</h3>
+                        <img src="img/el_viento_se_levanta.jpg" alt="Póster de la película Se Levanta el Viento">
+                        <p>Una obra profundamente emotiva sobre la pasión por el diseño y los sueños. Como desarrollador, me identifico con la dedicación de Jiro Horikoshi por crear algo hermoso.</p>
+                    </article>
+                </div>
+            </section>
+
+    <footer>
+        <p>Conéctate conmigo en:</p>
+        <a href="#">GitHub</a> | <a href="#">LinkedIn</a>
+        <p>&copy; 2026 - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
